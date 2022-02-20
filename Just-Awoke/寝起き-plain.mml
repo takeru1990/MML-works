@@ -2,9 +2,9 @@
             SMF to MML Compiler
                 -[Arukas]-
 
-            (c)2000 ƒNƒWƒ‰”òsŠ÷
+            (c)2000 ã‚¯ã‚¸ãƒ©é£›è¡Œæœº
   ----------------------------------------*/
-// FILE In  = {"C:\Users\k06ay\Downloads\ƒTƒNƒ‰data-20220220T054842Z-001\ƒTƒNƒ‰data\Q‹N‚«.mid"}
+// FILE In  = {"C:\Users\k06ay\Downloads\ã‚µã‚¯ãƒ©data-20220220T054842Z-001\ã‚µã‚¯ãƒ©data\å¯èµ·ã.mid"}
 // FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
 // Track Count = 2
 // SMF Format  = 1
@@ -13,7 +13,7 @@ System.ControllerShift(0);
 TimeSignature = 4,4
 
 //----------------------------------------
-//_Track0.Q‹N‚«
+//_Track0.å¯èµ·ã
 Track(0);
 Channel(1)
 //Meta & SysEx
@@ -21,7 +21,7 @@ Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
 
 Channel(16)
 //Meta & SysEx
-Time(  1:1:  0) TrackName={"Q‹N‚«"}
+Time(  1:1:  0) TrackName={"å¯èµ·ã"}
 Time(  1:1:  0) Copyright={" "}
 Time(  1:1:  0) MetaText={" "}
 Time(  2:1:  0) //TimeSignature = 4,4;
