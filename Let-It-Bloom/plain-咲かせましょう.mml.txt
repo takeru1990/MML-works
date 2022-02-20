@@ -1,0 +1,142 @@
+/*----------------------------------------
+            SMF to MML Compiler
+                -[Arukas]-
+
+            (c)2000 クジラ飛行机
+  ----------------------------------------*/
+// FILE In  = {"C:\Users\k06ay\Downloads\サクラdata-20220220T054842Z-001\サクラdata\咲かせましょう.mid"}
+// FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
+// Track Count = 9
+// SMF Format  = 1
+TimeBase       = 96;
+System.ControllerShift(0);
+TimeSignature = 4,4
+
+//----------------------------------------
+//_Track0.咲かせましょう
+Track(0);
+Channel(1)
+//Meta & SysEx
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+
+Channel(16)
+//Meta & SysEx
+Time(  1:1:  0) TrackName={"咲かせましょう"}
+Time(  1:1:  0) Copyright={" "}
+Time(  1:1:  0) MetaText={" "}
+Time(  2:1:  0) //TimeSignature = 4,4;
+Time(  2:1:  0) Tempo = 200;
+Time(  2:1:  0) /*Unknown Meta Event(2)*/
+
+//----------------------------------------
+//_Track1.
+Track(1);
+Channel(1)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Trumpet);y10,64;
+Time(1:1:0)
+r1^4 v120q98o5l4d e f q100l1^4g l2b q98>l4c q100<l1^4g 
+l2b q98>l4c q100<l1^4f l2e q98l4d q100l2e f 
+f+ g l1^4a l2b q98>l4c q100l1^4e <l2b q98>l4c q100l1e 
+l2.d q98l4c q100l1^1^%6c 
+//----------------------------------------
+//_Track2.
+Track(2);
+Channel(2)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Marimba);y10,100;
+Time(1:1:0)
+r1^4 v80q78o5l4d e f q75l16g g g g g g g g g g g g 
+g g g g g g g g q79l2b q78>l4c q75<l16g g g g g 
+g g g g g g g g g g g g g g g q79l2b q78>l4c q75<l16f 
+f f f f f f f f f f f f f f f f f f f q79l2e 
+q78l4d q75l16e e e e e e e e f f f f f f f f 
+f+ f+ f+ f+ f+ f+ f+ f+ g g g g g g g g a a a a 
+a a a a a a a a a a a a a a a a q79l2b q78>l4c q75l16e 
+e e e e e e e e e e e e e e e e e e e q79<l2b 
+q78>l4c q75l16e e e e e e e e e e e e e e e 
+e q79l2.d q78l4c q75l16c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c c l4^16c q78l4g 
+b >c c <g a >c c <g a b >c c l8^16^%3c 
+//----------------------------------------
+//_Track3.
+Track(3);
+Channel(3)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(HaloPad);y10,64;
+Time( 16:4: 95) y11,100;
+
+Time(1:1:0)
+r1^1 v90q%!1^1^%6o5c0 q%!1^2^4^8^16^%23e0 l1^1g q%!1^1^%6<b0 
+>e0 g <a+0 >d0 f q%!1^%2c0 l1e <a0 q99>d 
+q%!1^1^%6d0 q99l1^1g q%!1^1^%6c0 q%!1^2^4^8^16^%23e0 
+g q%!1^1^%6<b0 q%!1^2^4^8^16^%23>e0 g q%!1^1^%6c0 
+e0 l1^1^%6g 
+//----------------------------------------
+//_Track4.
+Track(4);
+Channel(4)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Trombone);y10,48;
+Time( 22:4: 95) y1,127;
+
+Time(1:1:0)
+r1^4 v110q78o4l4e e d q79l1^4c <l2b q78>l4c q79l1^4d 
+l2d q78l4e q79l1^4f l2e q78l4d q79l1e c l1^4g 
+l2d q78l4c q79l1^4e l2d q78l4c q79l1g l2.a q78l4b 
+q70>l1^1^4c q78<l4g b >c c <g a >c c <g a b q100>l2^16^%13c 
+
+//----------------------------------------
+//_Track5.
+Track(5);
+Channel(5)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(AcousticBass);y10,48;
+Time(1:1:0)
+r1^4 v80q98o2l4d e f v+30q100l1^4g v-30l2b q98>l4c 
+v+30q100<l1^4g v-30l2b q98>l4c v+30q100<l1^4f v-30l2e 
+q98l4d v+30q100l2e f f+ g l1^4a v-30l2b q98>l4c 
+v+30q100l1^4e v-30<l2b q98>l4c v+30q100l1e 
+v-30l2.d q98l4c v+30q100l1^1^%6c 
+//----------------------------------------
+//_Track6.
+Track(6);
+Channel(6)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Trumpet);y10,127;
+Time(1:1:0)//PitchBend
+
+Time( 17:1: 23) p%=0;
+Time(1:1:0)
+r1^4^16 v80q78o5l4d e f q79l1^4g l2b q78>l4c q79<l1^4g 
+l2b q78>l4c q79<l1^4f l2e q78l4d q79l2e f f+ 
+g l1^4a l2b q78>l4c q79l1^4e <l2b q78>l4c q79l1e 
+l2.d q78l4c q100l1^2.c 
+//----------------------------------------
+//_Track7.
+Track(7);
+Channel(7)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Trumpet);y10,0;
+Time(1:1:0)//PitchBend
+
+Time( 17:1: 11) p%=0;
+Time(1:1:0)
+r1^4^32 v100q78o5l4d e f q79l1^4g l2b q78>l4c q79<l1^4g 
+l2b q78>l4c q79<l1^4f l2e q78l4d q79l2e f f+ 
+g l1^4a l2b q78>l4c q79l1^4e <l2b q78>l4c q79l1e 
+l2.d q78l4c q100l1^2^4^%9c 
+//----------------------------------------
+//_Track8.
+Track(8);
+Channel(8)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Trombone);y10,48;
+Time( 23:1: 11) y1,127;
+
+Time(1:1:0)
+r1^4^32 v90q78o4l4e e d q79l1^4c <l2b q78>l4c q79l1^4d 
+l2d q78l4e q79l1^4f l2e q78l4d q79l1e c l1^4g 
+l2d q78l4c q79l1^4e l2d q78l4c q79l1g l2.a q78l4b 
+q70>l1^1^4c q78<l4g b >c c <g a >c c <g a b 
+q100>l2^16^%13c 

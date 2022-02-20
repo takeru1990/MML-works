@@ -1,0 +1,69 @@
+/*----------------------------------------
+            SMF to MML Compiler
+                -[Arukas]-
+
+            (c)2000 クジラ飛行机
+  ----------------------------------------*/
+// FILE In  = {"C:\Users\k06ay\Downloads\サクラdata-20220220T054842Z-001\サクラdata\愛未終.mid"}
+// FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
+// Track Count = 3
+// SMF Format  = 1
+TimeBase       = 96;
+System.ControllerShift(0);
+TimeSignature = 4,4
+
+//----------------------------------------
+//_Track0.愛未終
+Track(0);
+Channel(1)
+//Meta & SysEx
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+Time(  1:1:  0) SysEx$ = F0,43,10,4C,0,0,7E,0,F7;
+Time(  1:1:  0) SysEx$ = F0,41,10,42,12,40,0,7F,0,41,F7;
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+
+Channel(16)
+//Meta & SysEx
+Time(  1:1:  0) TrackName={"愛未終"}
+Time(  1:1:  0) Copyright={" "}
+Time(  1:1:  0) MetaText={" "}
+Time(  2:1:  0) //TimeSignature = 4,4;
+Time(  2:1:  0) Tempo = 140;
+Time(  2:1:  0) /*Unknown Meta Event(2)*/
+
+//----------------------------------------
+//_Track1.
+Track(1);
+Channel(1)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(AltoSax);
+Time( 24:3: 95) y1,20;
+
+Time(1:1:0)
+
+Time( 10:1:  0) v120q78o5l4b q77l8a q79l4.a q78l4e 
+b q77l8a q79l4.a q78l4e q79l2.b q77>l8c <b q79l1a 
+q78l4a q77l8g q79l4.g q78l4d a q77l8g q79l4.g 
+q78l4d q79l2.b q77>l8c <b q79l1a q78l4b q77l8a 
+q79l4.a q78l4e b q77l8a q78l4a q77l8e e e q79>l2.e 
+q77<l8g q79l1^8g q78l4a q77l8g q79l4.g q78l4d 
+a q77l8g q79l4.g q78l4d q79l2.f+ q100l1^1^16^%13g 
+
+//----------------------------------------
+//_Track2.
+Track(2);
+Channel(2)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Atmosphere);
+Time(1:1:0)
+r1 v100q%!1^%2o4e0 g0 l1b d0 f+0 a c0 e0 g q%!2^4^8^16^%23d0 
+q%!1^%2f+0 q99a q%!1^%2d0 f0 a0 v+20q100>>l4.c 
+q97l8e l4g g v-20q%!1^%2<<c0 e0 g0 v+20q98>>a 
+q97l8f l4e d l8c v-20q%!2^4^8^16^%23<<d0 
+q%!1^%2f+0 l1a d0 q%!2^4^8^16^%23g0 b q%!1^%2e0 
+g0 b d0 f+0 a c0 e0 g q%!2^4^8^16^%23d0 q%!1^%2f+0 
+q99a q%!1^%2d0 f0 a c0 e0 g q%!2^4^8^16^%23d0 
+q%!1^%2f+0 a d0 q%!2^4^8^16^%23g0 b q%!1^%2e0 g0 
+b f+0 a0 q99>c <e0 q%!1^%2g0 >c <c0 e0 b d0 f0 
+a c0 e0 g q%!2^4^%1<b0 >d0 l2.f q%!1^1^4^%7c0 l1^1^4^%7e 
+

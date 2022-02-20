@@ -1,0 +1,144 @@
+/*----------------------------------------
+            SMF to MML Compiler
+                -[Arukas]-
+
+            (c)2000 クジラ飛行机
+  ----------------------------------------*/
+// FILE In  = {"C:\Users\k06ay\Downloads\サクラdata-20220220T054842Z-001\サクラdata\威風堂々.mid"}
+// FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
+// Track Count = 9
+// SMF Format  = 1
+TimeBase       = 96;
+System.ControllerShift(0);
+TimeSignature = 3,4
+
+//----------------------------------------
+//_Track0.威風堂々
+Track(0);
+Channel(1)
+//Meta & SysEx
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+
+Channel(16)
+//Meta & SysEx
+Time(  1:1:  0) TrackName={"威風堂々"}
+Time(  1:1:  0) Copyright={" "}
+Time(  1:1:  0) MetaText={" "}
+Time(  2:2:  0) //TimeSignature = 3,4;
+Time(  2:2:  0) Tempo = 165;
+Time(  2:2:  0) /*Unknown Meta Event(2)*/
+
+//----------------------------------------
+//_Track1.
+Track(1);
+Channel(1)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Vibraphone);y10,85;
+Time(1:1:0)
+
+Time( 19:1:  0) v120q79o6l2.c q78<l4b >c d q79<l2.a 
+g f q78l4e f g q79l1.d l2.e q78l4f g a q79>l2.d 
+<g >c q78l4c <b a q79l1.g >l2.c q78<l4b >c d 
+q79<l2.a g f q78l4e f g q79l1.d l2.e q78l4f g a 
+q79>l2.d <g >f q78l4f e d q79l1.e <l2.a q78l4b >c 
+d q79<l2.g >c <c q78l4f e d q100l1^8^16^%3c 
+//----------------------------------------
+//_Track2.
+Track(2);
+Channel(2)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Contrabass);y10,50;
+Time(1:1:0)
+r1. v90q100o4l2.c q98<l4b a g q100l2.a g q99a q98l4a 
+g f q100l1.g l2.f q98l4g f e q100l2.f c q99f q98l4f 
+e d q100l1.c >l2.c q98<l4b a g q100l2.a g 
+q99a q98l4a g f q100l1.g l2.f q98l4g f e q100l2.f 
+c q99f q98l4f e d q100l1.c >l2.c q98<l4b a g q100l2.a 
+g q99a q98l4a g f q100l1.g l2.f q98l4g f 
+e q100l2.f c q99f q98l4f e d q100l1.c l2.d q98l4a 
+g f q100l2.g c q99f q98l4f e d q100l1^2^%4c 
+//----------------------------------------
+//_Track3.
+Track(3);
+Channel(3)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Vibraphone);y10,127;
+Time(1:1:0)
+
+Time( 24:1:  0) v80q98o5l4a q%!4^%3a g q%!1^2^16^%3l1.f 
+q%!2^4^%13l2.c q%!4^%3l4g f e q%!2^4^%13l2.f 
+c q99f q%!4^%3l4f e d q%!1^2^16^%3l1.c q%!1^%18l1e 
+q%!4^%3l4g b q%!2^4^%13>l2.c <c q99a q98l4a 
+q%!4^%3a g q%!1^2^16^%3l1.f q%!2^4^%13l2.c q%!4^%3l4g 
+f e q%!2^4^%13l2.f c q99f q98l4f q%!4^%3f 
+d q%!1^2^16^%3l1.g q%!2^4^%13l2.d q%!4^%3l4a 
+g f q%!2^4^%13l2.g c v-10q99>f q%!4^%3l4f e d q100l1^2^16^%3c 
+
+//----------------------------------------
+//_Track4.
+Track(4);
+Channel(4)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Clarinet);
+Time(1:1:0)
+
+Time( 27:2:  0) v50q99o5l2.g f e f l2g q98l4f e d 
+q99l2.c q98l4g g g q99l1e q98l4g b q99>l2.c <c 
+q98l4c e d q99l1c q98l4d c d f d q99l1^2.a q98l4f 
+d q99l1^4c l1a >l2c <b a+ l2.a q98l4a >c <a q99l2.g 
+>l1.c q98<l4d f a q100>l1^4^8^16^%23c 
+//----------------------------------------
+//_Track5.
+Track(5);
+Channel(5)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(TubularBells);y10,0;
+Time(1:1:0)
+
+Time( 11:1:  0) v80q79o3l2.c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c l2^16^%13c 
+//----------------------------------------
+//_Track6.
+Track(6);
+Channel(6)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(Vibraphone);y10,32;
+Time(1:1:0)
+
+Time( 19:1:  3) v70q79o6l2.c q78<l4b >c d q79<l2.a 
+g f q78l4e f g q79l1.d l2.e q78l4f g a q79>l2.d 
+<g >c q78l4c <b a q79l1.g >l2.c q78<l4b >c d q79<l2.a 
+g f q78l4e f g q79l1.d l2.e q78l4f g a q79>l2.d 
+<g >f q78l4f e d q79l1.e <l2.a q78l4b >c 
+d q79<l2.g >c v-30<c q78l4f e d q100l1^8^16^%3c 
+
+//----------------------------------------
+//_Track7.
+Track(7);
+Channel(7)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(GrandPiano);
+Time(1:1:0)
+
+Time( 27:2:  0) v70q79o6l2.g f e f l2g q78l4f e d 
+q79l2.c q78l4g g g q79l1e q78l4g b q79>l2.c <c 
+q78l4c e d q79l1c q78l4d c d f d q79l1^2.a q78l4f 
+d q79l1^4c l1a >l2c <b a+ l1a q78l4a >c <a q79l2g 
+>l1.c q78<l4d f a q100>l1^8^16^%3c 
+//----------------------------------------
+//_Track8.
+Track(8);
+Channel(8)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(WarmPad);
+Time(1:1:0)
+
+Time( 27:1:  0) v50q%!1^2^%4o5c0 e0 l1.g <a0 >d0 
+q99f q%!1^2^%4c0 q99f q%!1^2^%4d0 f0 q99g q%!1^2^%4e0 
+q%!1^4^8^16^%23g0 b q%!1^2^%4c0 q%!1^4^8^16^%23g0 
+q100b d0 q%!1^4^8^16^%23g0 q100a q%!1^4^8^16^%23e0 
+q100g c0 e0 a d0 g c0 q%!1^4^8^16^%23e0 
+q100a e0 g0 b q%!1^4^8^16^%23d0 q%!1^2^%4f0 a 
+d0 e0 q99g c0 q%!1^2^%4f0 q99g q%!1^4^%3c0 e0 l1^4^%3g 
+

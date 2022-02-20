@@ -1,0 +1,90 @@
+/*----------------------------------------
+            SMF to MML Compiler
+                -[Arukas]-
+
+            (c)2000 クジラ飛行机
+  ----------------------------------------*/
+// FILE In  = {"C:\Users\k06ay\Downloads\サクラdata-20220220T054842Z-001\サクラdata\赤沙汰.mid"}
+// FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
+// Track Count = 5
+// SMF Format  = 1
+TimeBase       = 96;
+System.ControllerShift(0);
+TimeSignature = 4,4
+
+//----------------------------------------
+//_Track0.赤沙汰
+Track(0);
+Channel(1)
+//Meta & SysEx
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+Time(  1:1:  0) SysEx$ = F0,43,10,4C,0,0,7E,0,F7;
+Time(  1:1:  0) SysEx$ = F0,41,10,42,12,40,0,7F,0,41,F7;
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+
+Channel(16)
+//Meta & SysEx
+Time(  1:1:  0) TrackName={"赤沙汰"}
+Time(  1:1:  0) Copyright={" "}
+Time(  1:1:  0) MetaText={" "}
+Time(  2:1:  0) //TimeSignature = 4,4;
+Time(  2:1:  0) Tempo = 120;
+Time(  2:1:  0) /*Unknown Meta Event(2)*/
+
+//----------------------------------------
+//_Track1.
+Track(1);
+Channel(1)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(DistortionGuitar);
+Time(1:1:0)
+r1 v120q79o5l2^8g q77l8e g b q78l4b q77>l8c q78<l4g 
+q79l4.e q78l4d q77l8c q78l4d q79l4.c q78l4d q77l8g 
+q78l4e q79l2^8c q78l4d q77l8g l4b q79l4.b q77>l8c 
+q78<l4g q77l8e c q100l1^2^8^16^%3d 
+//----------------------------------------
+//_Track2.
+Track(2);
+Channel(2)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(GrandPiano);
+Time(1:1:0)
+r1 v80q%!2o4c0 q%!4^8^16^%23e0 l2g q%!2e0 q%!4^8^16^%23g0 
+b q%!2d0 g0 b q%!4^8^16^%23f0 a0 q100>c q%!4^8^16^%23<c0 
+q%!2f0 a c0 e0 q99g q%!2<b0 >d0 
+g <a0 >c0 e q%!4^8^16^%23d0 g0 q100>d q%!4^8^16^%23<d0 
+q%!2g0 b d0 q%!4^8^16^%23f0 a q%!2c0 f0 a 
+q%!4^8^16^%23d0 g0 q100b q%!4^8^16^%23d0 g0 q100>c 
+q%!4^8^16^%23<d0 g0 q100b d0 g0 >d 
+//----------------------------------------
+//_Track3.
+Track(3);
+Channel(10)
+Time(1:1:0)
+r1 v100q77o3l8g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ 
+a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 
+d g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ a+ g+0 
+d a+0 d g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ 
+a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 
+d g+ a+ g+0 d a+0 d g+ a+ g+0 d a+0 d g+ a+ g+0 
+d a+0 l16^%13d 
+//----------------------------------------
+//_Track4.
+Track(4);
+Channel(4)
+Time(1:1:0)//Ctrl
+r2^4^8^16^%23 Voice(OverdrivenGuitar);
+Time(1:1:0)
+r1 v120q83o5g%6v-20q81l2^16^%18g v+20q83e%6v-20q88l16^%18e 
+v+20q83g%6v-20q88g v+20q83b%6v-20q88b v+20q83b%6
+v-20l8^16^%18b v+20>c%6v-20q88l16^%18c v+20q83<g%6
+v-20l8^16^%18g v+20e%6v-20q82l4^16^%18e 
+v+20q83d%6v-20l8^16^%18d v+20c%6v-20q88l16^%18c 
+v+20q83d%6v-20l8^16^%18d v+20c%6v-20q82l4^16^%18c 
+v+20q83d%6v-20l8^16^%18d v+20g%6v-20q88l16^%18g 
+v+20q83e%6v-20l8^16^%18e v+20c%6v-20q81l2^16^%18c 
+v+20q83d%6v-20l8^16^%18d v+20g%6v-20q88l16^%18g 
+v+20q83b%6v-20q41l8^16^%18b v+20q83b%6v-20q82l4^16^%18b 
+v+20q83>c%6v-20q88l16^%18c v+20q83<g%6
+v-20l8^16^%18g v+20e%6v-20q88l16^%18e v+20q83c%6
+v-20q88c v+20q83d%6v-20q100l1^2^8^16^%3d 

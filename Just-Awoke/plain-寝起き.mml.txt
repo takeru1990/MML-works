@@ -1,0 +1,41 @@
+/*----------------------------------------
+            SMF to MML Compiler
+                -[Arukas]-
+
+            (c)2000 クジラ飛行机
+  ----------------------------------------*/
+// FILE In  = {"C:\Users\k06ay\Downloads\サクラdata-20220220T054842Z-001\サクラdata\寝起き.mid"}
+// FILE Out = {"C:\Users\k06ay\Downloads\sakura-pack_2_379\sakura-pack\temp.txt"}
+// Track Count = 2
+// SMF Format  = 1
+TimeBase       = 96;
+System.ControllerShift(0);
+TimeSignature = 4,4
+
+//----------------------------------------
+//_Track0.寝起き
+Track(0);
+Channel(1)
+//Meta & SysEx
+Time(  1:1:  0) SysEx$ = F0,7E,7F,9,1,F7;
+
+Channel(16)
+//Meta & SysEx
+Time(  1:1:  0) TrackName={"寝起き"}
+Time(  1:1:  0) Copyright={" "}
+Time(  1:1:  0) MetaText={" "}
+Time(  2:1:  0) //TimeSignature = 4,4;
+Time(  2:1:  0) Tempo = 130;
+Time(  2:1:  0) /*Unknown Meta Event(2)*/
+
+//----------------------------------------
+//_Track1.
+Track(1);
+Channel(1)
+Time(1:1:0)
+r1 v120q77o5l8e e g g q78l4g q77l8d c g q37f f f q77f 
+q37e d c q38l4e q79l2.g q77l8g l4f e q52l4.d 
+q%!4^8^%8c0 q77l8e e g g q%!4^8^%8<b0 q78>l4g q77l8d 
+c q%!4^8^%8d0 q77g q37f f f q%!4^16^%23c0 q77f 
+q37e d c q38l4e q79l2.g q77l8g l4f e q100l8^16^%3d 
+
